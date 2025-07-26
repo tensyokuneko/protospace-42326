@@ -1,0 +1,17 @@
+<div class="card">
+  <%# 画像があれば表示 %>
+  <%= image_tag prototype.image, 
+  class: "card-img-top" if prototype.image.attached? %>
+
+  <div class="card-body">
+    <h2><%= prototype.title %></h2>
+    <p><%= prototype.catch_copy %></p>
+    <p>投稿者：<%= link_to prototype.user.name, 
+    user_path(prototype.user) %></p>
+
+    <%# 仮リンクなのでroot_pathでOK %>
+    <%= link_to "詳細へ", prototype_path(prototype) %>
+
+
+  </div>
+</div>
