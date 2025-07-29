@@ -35,11 +35,7 @@
                  
     </header>
 
-    <% if user_signed_in? %>
-      <div class="greeting">
-        <p>こんにちは <%= current_user.name %> さん</p>
-      </div>
-    <% end %>
+   
 
     <%= yield %>
     <footer class="footer">
