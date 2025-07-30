@@ -82,13 +82,17 @@ a {
 }
 
 /* フォーム周り */
-.form__wrapper {
+.form_wrapper {
   min-height: calc(100vh - 161px);
+  display: flex;         /* 追加: 横並びにする */ 
 }
 
-.form__text {
-  width: 50%;
+
+.form_text {
+  width: 100%;
+  max-width: 400px;
 }
+
 
 .field {
   margin: 10px 0;
