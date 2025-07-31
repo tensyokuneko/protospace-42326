@@ -84,10 +84,7 @@ a {
 /* フォーム周り */
 .form_wrapper {
   /min-height: calc(100vh - 161px);
-  display: flex;
-  justify-content: center; /* 横方向中央寄せ */ /* 追加: 横並びにする */
-  align-items: center; /* 縦方向中央寄せ  */
-}
+  
 
 .form_text {
   width: 50%;
