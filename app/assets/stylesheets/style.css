@@ -84,6 +84,8 @@ a {
 /* フォーム周り */
 .form_wrapper {
   /min-height: calc(100vh - 161px);
+  width: 1024px;
+  margin: 0 auto;
   
 
 .form_text {
