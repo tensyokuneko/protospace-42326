@@ -83,14 +83,14 @@ a {
 
 /* フォーム周り */
 .form_wrapper {
-  min-height: calc(100vh - 161px);
+  /min-height: calc(100vh - 161px);
   display: flex;         /* 追加: 横並びにする */ 
 }
 
 
 .form_text {
-  width: 100%;
-  max-width: 400px;
+  width: 50%;
+  
 }
 
 
