@@ -270,8 +270,12 @@ a {
 /* フッター */
 
 .footer {
+  width: 100%;
   background-color: #999;
   padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
 .copyright {
   text-align: center;
